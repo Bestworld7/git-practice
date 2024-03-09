@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f8f7-0b48-44a1-9647-b30cfabb38fb" name="Changes" comment="신규 commimt">
-      <change afterPath="$PROJECT_DIR$/test_2.py" afterDir="false" />
+    <list default="true" id="d493f8f7-0b48-44a1-9647-b30cfabb38fb" name="Changes" comment="두번째 commimt">
+      <change afterPath="$PROJECT_DIR$/test_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycham_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycham_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +41,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.pycham_test.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "cham__test",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.pycham_test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;cham__test&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="pycham_test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="git-practice" />
@@ -91,6 +90,19 @@
       <option name="presentableId" value="Default" />
       <updated>1709951153917</updated>
     </task>
+    <task id="LOCAL-00001" summary="두번째 commimt">
+      <option name="closed" value="true" />
+      <created>1709955581776</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709955581776</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="두번째 commimt" />
+    <option name="LAST_COMMIT_MESSAGE" value="두번째 commimt" />
   </component>
 </project>

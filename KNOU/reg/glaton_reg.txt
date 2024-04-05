@@ -1,0 +1,14 @@
+galton = read.csv("d:/data/reg2023/galtonpea.csv")
+galton_w = galton[rep(1:nrow(galton), galton$freq),] 
+ybar = tapply(galton_w$progency, galton_w$parent, mean)
+sd = tapply(galton_w$progency, galton_w$parent, sd)
+n = tapply(galton_w$progency, galton_w$parent, length)
+x = rownames(ybar)
+x = as.numeric(x)
+galton_f = cbind(parent=x, progency = ybar, sd = sd)
+mode(galton_f)
+
+data.frame(galton_f)
+
+lm_w = lm(progency ~ parent, weights=1/sd^2, data=galton_f)
+summary(lm_w)
